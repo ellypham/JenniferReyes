@@ -3,7 +3,12 @@ body {
 }
 
 .em-text{
-	color:#1Caa98 !important;
+	color:#678F85!important;
+}
+
+.name-text{
+	font-family: 'Felipa', cursive;
+	font-size: 20px;
 }
 
 .col-md-4{
@@ -11,15 +16,16 @@ body {
 }
 
 section{
-	padding: 40px 0;
+	padding: 40px 0;	
 }
 
 .jumbotron{
-	background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+	background: #1b222a;
 	color: white;
 	height: 500px;
 	overflow: none;
 }
+
 
 .jumbotron h1{
 	margin-top: 60px;
@@ -31,11 +37,11 @@ section{
 
 .jumbotron img.app-btn{
 	width: 40%;
-	margin-right: 30px;
+	margin-right: 30px;`
 }
 
 .jumbotron img.showcase-img{
-	width: 61.8%;
+	width: 97.8%;
 }
 
 img.demo{
@@ -45,7 +51,7 @@ img.demo{
 }
 
 section#feature{
-	background: #1Caa98;
+	background: #678F85;
 	color: white;
 	padding: 40px;
 	overflow: auto;
@@ -62,11 +68,19 @@ section#feature ul{
 	margin: 0;
 }
 
+section#middle h1{
+	font-size: 38px;
+	text-align: center;
+	color: #678F85;
+	padding-bottom: 20px;
+	margin-top: 0px;
+}
+
 section#title-bar{
 	padding:0;
 	margin: 0;
 	height: 80px;
-	background: #1caa98;
+	background: #1b222a;
 	color: white;
 }
 
@@ -75,7 +89,7 @@ section#title-bar h1{
 }
 
 footer{
-	background: #333;
+	background: #1b222a;
 	color: white;
 	padding: 30px 0 20px 0;
 }
@@ -97,12 +111,20 @@ footer p{
 /*MEDIA QUERIES*/
 
 @media(max-width: 1200px){
-
+ 	.jumbotron img.showcase-img{
+		width: 118.8%;
+	}
 }
 
 @media(max-width: 1182px){
 	.jumbotron img.showcase-img{
-		width: 75.3%;
+		width: 119.3%;
+	}
+}
+
+@media(max-width: 1088px){
+	.jumbotron img.showcase-img{
+		width: 119.3%;
 	}
 }
 
@@ -110,6 +132,7 @@ footer p{
 	.showcase-img{
 		display: none !important;
 	}
+	.jumboron.container.row 
 }
 
 @media(min-width: 768px) and (max-width: 990px){
